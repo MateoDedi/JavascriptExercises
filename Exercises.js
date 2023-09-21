@@ -1,3 +1,58 @@
+        // 05b E X E R C I S E S
+
+/*
+var a = "3";
+var b = "8";
+
+var temp = a;
+a = b;
+b = temp;
+
+
+console.log("a is "+ a);
+console.log("b is "+ b);
+*/
+
+        // 05b E X E R C I S E S
+
+//const message = "    TASTE THE RAINBOW!  "
+//console.log(message.trim() && message.toLowerCase()) ;
+
+    //
+
+//let x = "Mateo";
+//let lastChar = x[x.length -1];
+//console.log(lastChar);
+
+    //
+
+//const word = "skateboard";
+
+//let split = word.slice(5, 10);
+
+//let facialHair = split.replace("o", "e");
+
+//console.log(facialHair);
+
+        // 06 N U M B E R S
+
+//let x = Math.floor(Math.random() * 10);
+//console.log(x);
+
+//let y = (Math.random() * 5) + 1;
+//console.log(y);
+
+        // 07 Exercise
+
+//const city = "Brussels";
+//let weatherCondition = "rainy";
+//let temperature = 24.16879;
+
+//const weatherText = `The weather in ${city} is ${weatherCondition} and it's ${parseInt(temperature)} degree C outside`; 
+
+//console.log(weatherText);
+
+
 /*
 const names = prompt("What is your name?");
 

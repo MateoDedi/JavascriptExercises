@@ -327,4 +327,57 @@ let favNum = function(num) {
 
 }
   console.log(``);
-  */
+*/
+
+   // FUNCTIONS
+
+/* 
+let diceThrow = function (faces, times) {
+  for (let i = 1; i <= times; i++) {
+    const result = Math.floor(Math.random() * faces) + 1;
+    console.log(`Die ${i}: ${result}`)
+  }
+}
+
+diceThrow(6, 5);
+*/
+
+  //
+
+/* 
+function greet(firstName, lastName) {
+  // Get the first character of the lastName and capitalize it
+  const lastNameInitial = lastName.charAt(0).toUpperCase();
+
+  // Construct the full name
+  const fullName = `${firstName} ${lastNameInitial}.`;
+
+  return `This is ${fullName}`;
+}
+
+// Example usage:
+const result = greet("Marlon", "Brandon");
+console.log(result);
+*/
+
+  //
+
+/*
+function addSum(a, b) {
+  if (typeof a === 'number' && typeof b === 'number') {
+    return a + b;
+  } else {
+    console.error('Both parameters must be numbers');
+    return NaN;
+  }
+}
+
+let result = addSum(3, 6);
+
+if (!isNaN(result)) {
+  console.log(result);
+}
+*/
+
+  //
+

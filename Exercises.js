@@ -294,5 +294,37 @@ do {
     //
 
 /* 
+function myFunctionName() {
+  console.log("DO");
+  console.log("RE");
+  console.log("MI");
+  console.log("FA");
+  console.log("SOL");
+  console.log("LA");
+  console.log("SI");
+}
 
+myFunctionName();
 */
+
+    //
+
+/*
+
+let colours = function () {
+  console.log("r","g","b")
+}
+colours();
+
+let loma = colours;
+loma();
+*/
+
+  //
+
+/* 
+let favNum = function(num) {
+
+}
+  console.log(``);
+  */

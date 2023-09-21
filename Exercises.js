@@ -410,14 +410,13 @@ console.log(result);
 
   //
 
-/* */
-
+/*
 function capitalize(a) {
   if (typeof a === "string") {
     
     let cap = a.charAt(0);
     let majuscule = cap.toUpperCase();
-    
+
     let cut = a.slice(1);
     
     return `${majuscule}${cut}`;
@@ -429,3 +428,8 @@ function capitalize(a) {
 const a = "rabbit";
 const result = capitalize(a);
 console.log(result);
+ */
+
+  //
+
+/* */

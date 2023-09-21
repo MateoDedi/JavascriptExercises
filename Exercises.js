@@ -367,7 +367,6 @@ function addSum(a, b) {
   if (typeof a === 'number' && typeof b === 'number') {
     return a + b;
   } else {
-    console.error('Both parameters must be numbers');
     return NaN;
   }
 }
@@ -381,3 +380,52 @@ if (!isNaN(result)) {
 
   //
 
+/* 
+function isShortWeather(a) {
+  if (a >= 24) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+isShortWeather(24);
+*/
+
+  //
+
+/*
+function lastElement(a) {
+  if (a.length === 0) {
+    return null;
+  } else {
+    return a[a.length - 1];
+  }
+}
+
+const a = [1, 2, 3, 4, 5];
+const result = lastElement(a);
+console.log(result);
+ */
+
+  //
+
+/* */
+
+function capitalize(a) {
+  if (typeof a === "string") {
+    
+    let cap = a.charAt(0);
+    let majuscule = cap.toUpperCase();
+    
+    let cut = a.slice(1);
+    
+    return `${majuscule}${cut}`;
+  } else {
+    return null;
+  }
+}
+
+const a = "rabbit";
+const result = capitalize(a);
+console.log(result);

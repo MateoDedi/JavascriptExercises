@@ -432,4 +432,67 @@ console.log(result);
 
   //
 
+/* 
+function sumArray(num) {
+  let total = 0;
+  for (i = 0; i < num.length; i++) {
+    total += num[i];
+  }
+  return total;
+}
+
+const num = [1, 2, 3, 4, 5];
+const result = sumArray(num);
+console.log(result);
+*/
+
+  //
+
+/* 
+function returnDay(num) {
+  let days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+
+  if (typeof num === `number` && num >= 1 && num <= 7 ) {
+    return days[num - 1];
+  } else {
+    return null;
+  }
+}
+
+console.log(returnDay(1)); // Output: "Monday"
+console.log(returnDay(3)); // Output: "Wednesday"
+console.log(returnDay(7)); // Output: "Sunday"
+console.log(returnDay(0)); // Output: null (Outside the valid range)
+console.log(returnDay(8));
+*/
+
+    // Scope
+
+/* 
+let user = {
+  firstName: "Mateo",
+  lastName: "Dedi",
+  age: 25,
+  printAge: function () {
+    console.log(`${this.firstName} ${this.lastName} is ${this.age} years old!`);
+  },
+  aYearHasPassed: function () {
+    let newAge = this.age + 1;
+    console.log(`He is ${this.age} years old and he will be ${newAge} next year!`);
+  }
+};
+
+user.printAge();
+
+user.aYearHasPassed();
+*/
+
+  //
+
+/* 
+let user = (name) => {
+  return `my name is ${name}`
+}
+console.log(user("Mateo"));
+*/
 /* */
